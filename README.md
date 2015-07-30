@@ -17,7 +17,7 @@ Many compilers exist according to the environment. Let's list a few of them.
 - [Node package](http://lesscss.org/usage/#command-line-usage)
 - [Gulp plugin](https://github.com/plus3network/gulp-less)
 - [Grunt plugin](https://github.com/gruntjs/grunt-contrib-less)
-- [GUI (graphic user interface) i.e. desktop apps](http://lesscss.org/usage/#guis-for-less)
+- [GUI](http://lesscss.org/usage/#guis-for-less) (graphic user interface) i.e. desktop apps
 - [Online tools](http://lesscss.org/usage/#online-less-compilers)
 
 ## Examples

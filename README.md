@@ -6,7 +6,7 @@ Dynamic CSS preprocessor
 ## Purpose
 Compile `.less` files into `.css` files. LESS files may contain an advanced form of CSS. LESS syntax supports variables, mixins, functions, and others fancy features.
 
-> If you have ever ventured to wirte more than 200 lines of CSS you'll probably love CSS. CSS preprocessors are so handy. Must of us believe that once you try a CSS preprocessor you never go back.
+If you have ever ventured to wirte more than 200 lines of CSS you'll probably love CSS. CSS preprocessors are so handy that must of us believe that once you try a preprocessor, you will never look back.
 
 ## Compilers
 Many compilers exist for many environments. Let's see a couple of them.

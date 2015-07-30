@@ -3,7 +3,13 @@
 - Requires Node: https://github.com/heyallan/node
 - Requires NPM (comes with Node)
 
-Compiling LESS with Node is the easiest and fastest way to get started because you only need command line, but it also offers few options and zero automatization, and software is supposed to be all about automatization.
+*Pros:*
+- Easiest and fastest way to get started
+- You'll only need command line
+
+*Cons:*
+- Little to no options
+- Zero automatization
 
 ## Node example
 
@@ -48,3 +54,4 @@ project/
 │   ├── css/
 │   │   ├── styles.min.css
 ```
+Rinse and repeat.

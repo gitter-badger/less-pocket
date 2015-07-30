@@ -13,12 +13,12 @@ Many compilers exist for many environments. Let's see a couple of them.
 - Node: http://lesscss.org/usage/#command-line-usage
 - Gulp: https://github.com/plus3network/gulp-less
 - Grunt: https://github.com/gruntjs/grunt-contrib-less
-- Graphic user interface (software you can install on you computer): http://lesscss.org/usage/#guis-for-less
+- GUI (graphic user interface) i.e. desktop apps: http://lesscss.org/usage/#guis-for-less
 - Online: http://lesscss.org/usage/#online-less-compilers
 
 ## Examples
-- Compile with Node
-- Compile with Gulp
+- Compile LESS using Node: 
+- Compile LESS using Gulp: 
 
 ## Reference
 http://lesscss.org/features/

@@ -1,4 +1,4 @@
-# LESS: A Pocket Guide For Busy People
+# LESS Pocket Guide For Busy People
 
 ## Definition
 [LESS](http://lesscss.org): Dynamic CSS preprocessor

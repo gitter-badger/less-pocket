@@ -1,6 +1,6 @@
 # Compile LESS using Node
 
-[← Go back to LESS overview](https://github.com/heyallan/less)
+[← Go back to LESS overview](https://github.com/heyallan/less-pocket)
 
 *Prerequisites:*
 - Node: https://github.com/heyallan/node

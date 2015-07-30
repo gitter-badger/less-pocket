@@ -1,12 +1,16 @@
-# LESS For Busy People
+# LESS: A Pocket Guide For Busy People
 
 ## Definition
-Dynamic CSS preprocessor
+[LESS](http://lesscss.org): Dynamic CSS preprocessor
 
 ## Purpose
-Compile `.less` files into `.css` files. LESS files may contain an advanced form of CSS. LESS syntax supports variables, mixins, functions, and others fancy features.
+Compile `.less` files into `.css` files.
 
-If you have ever ventured to wirte more than 200 lines of CSS you'll probably love CSS. CSS preprocessors are so handy that must of us believe that once you try a preprocessor, you will never look back.
+## Overview
+
+LESS files may (or may not) contain an advanced form of CSS. The LESS syntax supports variables, mixins, functions, and others features. Any block of standard CSS is valid LESS, but not the other way around.
+
+See [LESS features](http://lesscss.org/features/).
 
 ## Compilers
 Many compilers for many environments. Let's list a handful of them.
@@ -17,8 +21,8 @@ Many compilers for many environments. Let's list a handful of them.
 - [Online tools](http://lesscss.org/usage/#online-less-compilers)
 
 ## Examples
-- [Node tutorial](https://github.com/heyallan/less/tree/master/example_node)
-- [Gulp tutorial](https://github.com/heyallan/less/tree/master/example_gulp)
+- [Compile using Node](https://github.com/heyallan/less/tree/master/example_node) (pocket guide)
+- [Compile using Gulp](https://github.com/heyallan/less/tree/master/example_gulp) (pocket guide)
 
 ## Reference
 http://lesscss.org/features/

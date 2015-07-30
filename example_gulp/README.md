@@ -1,11 +1,11 @@
 # Compile LESS using Gulp
 
-[← Go back to LESS overview](https://github.com/heyallan/less)
+[← Go back to LESS overview](https://github.com/heyallan/less-pocket)
 
 Gulp is a task automator. Install dependencies, setup `gulpfile.js`, and let gulp run tasks on "autopilot".
 
 *Prerequisites:*
-- Node: https://github.com/heyallan/node
+- Node: https://github.com/heyallan/node-pocket
 - NPM (comes with Node)
 
 *Pros:*

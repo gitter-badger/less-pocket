@@ -4,13 +4,13 @@
 [LESS](http://lesscss.org): Dynamic CSS preprocessor
 
 ## Purpose
-Compile `.less` files into `.css` files.
+Compile `.less` files into standard `.css` files.
 
 ## Overview
 
 LESS files may (or may not) contain an advanced form of CSS. The LESS syntax supports variables, mixins, functions, and others features. Any block of standard CSS is valid LESS, but not the other way around.
 
-See [LESS features](http://lesscss.org/features/).
+Full list of [LESS features](http://lesscss.org/features/).
 
 ## Compilers
 Many compilers for many environments. Let's list a handful of them.

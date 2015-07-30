@@ -75,6 +75,6 @@ project/
 │   ├── img/
 │   ├── js/
 │   ├── css/
-│   │   ├── styles.min.css
+│   │   ├── styles.css
 ```
 Rinse and repeat.

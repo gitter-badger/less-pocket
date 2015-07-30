@@ -3,7 +3,7 @@
 [← Go back to LESS overview](https://github.com/heyallan/less-pocket)
 
 *Prerequisites:*
-- Node: https://github.com/heyallan/node
+- Node: https://github.com/heyallan/node-pocket
 - NPM (comes with Node)
 
 *Pros:*

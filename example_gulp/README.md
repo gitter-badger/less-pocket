@@ -47,7 +47,7 @@ gulp.task('less', function() {
 
 ### Compile
 ```shell
-# run less task
+# run task
 $ gulp less
 ```
 

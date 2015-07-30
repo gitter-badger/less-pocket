@@ -1,7 +1,10 @@
 # Compile LESS using Node
 
-- Requires Node: https://github.com/heyallan/node
-- Requires NPM (comes with Node)
+[← Go back to LESS overview](https://github.com/heyallan/less)
+
+*Prerequisites:*
+- Node: https://github.com/heyallan/node
+- NPM (comes with Node)
 
 *Pros:*
 - Easiest and fastest way to get started
@@ -11,7 +14,7 @@
 - Little to no options
 - Zero automatization
 
-## Node example
+## Example
 
 ### Compile
 ```shell

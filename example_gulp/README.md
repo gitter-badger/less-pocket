@@ -22,30 +22,33 @@ Gulp is a task automator. Install dependencies, setup `gulpfile.js`, and let gul
 
 - Gulp: https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
 - Less plugin: https://github.com/plus3network/gulp-less
+- Other plugins can be added like concatenation, minification, etc.
 
 ```shell
 # install dependencies
 $ npm init                          # create package.json
-$ npm install --global gulp         # install gulp automator globally
-$ npm install --save-dev gulp       # install gulp automator in project, and save options to package.json
-$ npm install --save-dev gulp-less  # install less compiler in project, and save options to package.json
+$ npm install --global gulp         # install gulp globally (if you haven't)
+$ npm install --save-dev gulp       # install gulp locally (will save options to package.json)
+$ npm install --save-dev gulp-less  # install less compiler locally (will save options to package.json)
 ```
 
 ### Setup
 ```javascript
 // gulpfile.js
 var gulp = require('gulp');
+var gulp = require('gulp-less');
+
 gulp.task('less', function() {
-  return gulp.src('./less/**/*.less')
+  return gulp.src('./src/less/*.less')
     .pipe(less())
-    .pipe(gulp.dest('./public/css'))
+    .pipe(gulp.dest('./dist/css/'))
 });
 ```
 
 ### Compile
 ```shell
-# run gulp file
-$ gulp
+# run less task
+$ gulp less
 ```
 
 ### Before compilation

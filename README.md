@@ -6,20 +6,20 @@ Dynamic CSS preprocessor
 ## Purpose
 Compile `.less` files into `.css` files. LESS files may contain an advanced form of CSS. LESS syntax supports variables, mixins, functions, and others fancy features.
 
-> If you have ever written more than 200 lines of CSS you'll probably like CSS. CSS preprocessor are so handy that once you try one you never come back.
+> If you have ever ventured to wirte more than 200 lines of CSS you'll probably love CSS. CSS preprocessors are so handy. Must of us believe that once you try a CSS preprocessor you never go back.
 
 ## Compilers
-Many compilers exist for many environments.
+Many compilers exist for many environments. Let's see a couple of them.
 
 ### 1. Node compiler (manual way)
 - Requires Node: https://github.com/heyallan/node
 - Requires NPM (comes with Node)
 - Source: https://github.com/less/less.js
 ```shell
-## tech node about less
+## install less compiler globally
 $ npm install -g less
 
-# Compile less
+# compile less
 $ lessc --compress styles.less > styles.css
 ```
 

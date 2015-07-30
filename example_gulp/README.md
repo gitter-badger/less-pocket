@@ -27,8 +27,8 @@ Gulp is a task automator. Install dependencies, setup `gulpfile.js`, and let gul
 # install dependencies
 $ npm init                          # create package.json
 $ npm install --global gulp         # install gulp automator globally
-$ npm install --save-dev gulp       # install gulp automator in project, and save options to package.js
-$ npm install --save-dev gulp-less  # install less compiler in project, and save options to package.js
+$ npm install --save-dev gulp       # install gulp automator in project, and save options to package.json
+$ npm install --save-dev gulp-less  # install less compiler in project, and save options to package.json
 ```
 
 ### Setup

@@ -1,4 +1,4 @@
-# LESS CSS For Busy People
+# LESS For Busy People
 
 ## Definition
 Dynamic CSS preprocessor
@@ -10,53 +10,15 @@ Compile `.less` files into `.css` files. LESS files may contain an advanced form
 
 ## Compilers
 Many compilers exist for many environments. Let's see a couple of them.
+- Node: http://lesscss.org/usage/#command-line-usage
+- Gulp: https://github.com/plus3network/gulp-less
+- Grunt: https://github.com/gruntjs/grunt-contrib-less
+- Graphic user interface (software you can install on you computer): http://lesscss.org/usage/#guis-for-less
+- Online: http://lesscss.org/usage/#online-less-compilers
 
-### 1. Node compiler (manual way)
-- Requires Node: https://github.com/heyallan/node
-- Requires NPM (comes with Node)
-- Source: https://github.com/less/less.js
-```shell
-## install less compiler globally
-$ npm install -g less
-
-# compile less
-$ lessc --compress styles.less > styles.css
-```
-
-### 2. Gulp (automated way)
-Gulp is a task automator. You install dependencies, setup `gulpfile.js`, and let gulp run compilation (and any other task) on "autopilot" mode. Gulp uses `gulpfile.js` to remember tasks and preferences.
-- *Gulp: https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md*
-- *Less plugin: https://github.com/plus3network/gulp-less*
-
-```shell
-# install dependencies
-$ npm install --global gulp         # install gulp globally
-$ npm install --save-dev gulp       # install gulp in project
-$ npm install --save-dev gulp-less  # install less support
-```
-```javascript
-// create gulpfile.js
-var gulp = require('gulp');
-gulp.task('less', function() {
-  return gulp.src('./less/**/*.less')
-    .pipe(less())
-    .pipe(gulp.dest('./public/css'))
-});
-```
-```shell
-# run gulp file
-$ gulp
-```
-
-## Update
-```shell
-
-```
-
-## Example
-```javascript
-
-```
+## Examples
+- Compile with Node
+- Compile with Gulp
 
 ## Reference
 http://lesscss.org/features/

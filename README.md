@@ -1,7 +1,7 @@
 # LESS Pocket Guide For Busy People
 
 ## Definition
-[LESS](http://lesscss.org): Dynamic CSS preprocessor
+[LESS](http://lesscss.org) is Dynamic CSS preprocessor
 
 ## Purpose
 Compile `.less` files into standard `.css` files.
@@ -21,8 +21,8 @@ Many compilers exist according to the environment. Let's list a few of them.
 - [Online tools](http://lesscss.org/usage/#online-less-compilers)
 
 ## Examples
-- [Compile using Node](https://github.com/heyallan/less/tree/master/example_node) (pocket guide)
-- [Compile using Gulp](https://github.com/heyallan/less/tree/master/example_gulp) (pocket guide)
+- [Compile using Node](https://github.com/heyallan/less-pocket/tree/master/example_node) (pocket guide)
+- [Compile using Gulp](https://github.com/heyallan/less-pocket/tree/master/example_gulp) (pocket guide)
 
 ## Reference
 http://lesscss.org/features/

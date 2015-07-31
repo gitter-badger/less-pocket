@@ -21,11 +21,15 @@ Cons:
 ## install less compiler globally
 $ npm install --global less
 
-## compile less
+## compile with options
 $ lessc --compress ./src/styles.less > ./dist/styles.min.css
 ```
 
-*Source: http://lesscss.org/usage/#command-line-usage*
+Options:<br/>
+``--compress`` compresses output by removing some whitespaces<br/>
+``[path/to/files] > [path/to/file]`` sets source and destination
+
+Source: http://lesscss.org/usage/#command-line-usage
 
 ### Before compilation
 

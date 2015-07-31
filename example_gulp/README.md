@@ -54,8 +54,8 @@ $ gulp less
 
 ```
 project/
-├── gulpfile.js
 ├── package.js
+├── gulpfile.js
 ├── src/
 │   ├── less/
 │   │   ├── styles.less
@@ -69,8 +69,8 @@ project/
 ### After compilation
 ```
 project/
-├── gulpfile.js
 ├── package.js
+├── gulpfile.js
 ├── src/
 │   ├── less/
 │   │   ├── styles.less

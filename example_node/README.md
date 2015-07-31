@@ -2,15 +2,15 @@
 
 [← Go back to LESS overview](https://github.com/heyallan/less-pocket)
 
-*Prerequisites:*
-- Node: https://github.com/heyallan/node-pocket
-- NPM (comes with Node)
+Prerequisites:
+- Node (see [Node Pocket Guide](https://github.com/heyallan/node-pocket))
+- NPM (comes with Node, see [NPM Pocket Guide](https://github.com/heyallan/npm-pocket))
 
-*Pros:*
+Pros:
 - Easiest and fastest way to get started
 - You'll only need command line
 
-*Cons:*
+Cons:
 - Little to no options
 - Zero automatization
 
@@ -19,11 +19,7 @@
 ### Compile
 ```shell
 ## install less compiler globally
-$ npm install -g less
-
-## go to project
-## if you don't know the exact path to project, you can copy the folder from finder and paste it into command line
-$ cd path/to/project/
+$ npm install --global less
 
 ## compile less
 $ lessc --compress ./src/styles.less > ./dist/styles.min.css
@@ -35,6 +31,8 @@ $ lessc --compress ./src/styles.less > ./dist/styles.min.css
 
 ```
 project/
+├── package.js
+├── gulpfile.js
 ├── src/
 │   ├── less/
 │   │   ├── styles.less
@@ -42,12 +40,14 @@ project/
 │   ├── img/
 │   ├── js/
 │   ├── css/
-│   │   ├── <empty>
+│   │   ├── <-- empty
 ```
 
 ### After compilation
 ```
 project/
+├── package.js
+├── gulpfile.js
 ├── src/
 │   ├── less/
 │   │   ├── styles.less
@@ -55,6 +55,5 @@ project/
 │   ├── img/
 │   ├── js/
 │   ├── css/
-│   │   ├── styles.min.css
+│   │   ├── styles.css <-- compiled file
 ```
-Rinse and repeat.

@@ -2,6 +2,8 @@
 
 [← Go back LESS Pocket Guide](https://github.com/heyallan/less-pocket)
 
+## Overview
+
 [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) is a task automator. Install dependencies, setup `gulpfile.js`, and let gulp run tasks on "autopilot".
 
 Prerequisites:

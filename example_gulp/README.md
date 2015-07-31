@@ -4,7 +4,7 @@
 
 ## Overview
 
-[Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) is a task automator. Install dependencies, setup `gulpfile.js`, and let gulp run tasks on "autopilot".
+[Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) is a task automator.
 
 Prerequisites:
 - Node (see [Node Pocket Guide](https://github.com/heyallan/node-pocket))
@@ -23,8 +23,7 @@ Cons:
 ### Install
 
 ```shell
-# install dependencies
-$ npm init                          # create package.json (if project doesn't have one already)
+$ npm init                          # setup package.json (if you haven't)
 $ npm install --global gulp         # install gulp globally (if you haven't)
 $ npm install --save-dev gulp       # install gulp locally (will save options to package.json)
 $ npm install --save-dev gulp-less  # install compiler locally (will save options to package.json)

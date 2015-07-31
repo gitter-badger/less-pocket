@@ -21,8 +21,8 @@ Many compilers exist according to the environment. Let's list a few of them.
 - [Online tools](http://lesscss.org/usage/#online-less-compilers)
 
 ## Examples
-- [Compile using Node](https://github.com/heyallan/less-pocket/tree/master/example_node) (pocket guide)
-- [Compile using Gulp](https://github.com/heyallan/less-pocket/tree/master/example_gulp) (pocket guide)
+- [Compile LESS using Node](https://github.com/heyallan/less-pocket/tree/master/example_node) (pocket guide)
+- [Compile LESS using Gulp](https://github.com/heyallan/less-pocket/tree/master/example_gulp) (pocket guide)
 
 ## Reference
 http://lesscss.org/features/

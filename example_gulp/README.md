@@ -78,6 +78,6 @@ project/
 │   ├── img/
 │   ├── js/
 │   ├── css/
-│   │   ├── styles.css <-- new compiled file
+│   │   ├── styles.css <-- compiled file
 ```
 Rinse and repeat.

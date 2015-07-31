@@ -1,6 +1,6 @@
 # Compile LESS using Node
 
-[← Go back to LESS overview](https://github.com/heyallan/less-pocket)
+[← Go back LESS Pocket Guide](https://github.com/heyallan/less-pocket)
 
 Prerequisites:
 - Node (see [Node Pocket Guide](https://github.com/heyallan/node-pocket))

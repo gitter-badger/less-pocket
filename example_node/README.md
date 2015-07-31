@@ -12,7 +12,7 @@ Pros:
 
 Cons:
 - Little to no options
-- Zero automatization
+- Zero automation
 
 ## Example
 

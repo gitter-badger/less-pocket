@@ -1,5 +1,7 @@
 # LESS Pocket Guide For Busy People
 
+[![Join the chat at https://gitter.im/heyallan/less-pocket](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/heyallan/less-pocket?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Definition
 [LESS](http://lesscss.org) is Dynamic CSS preprocessor
 
